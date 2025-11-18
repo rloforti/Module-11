@@ -19,7 +19,8 @@ def factorial(n):
     if n <= 1:          # base case
         return 1
     else:
-        return n * factorial(n - 1)
+        result = factorial(n - 1)
+        return n * result
 
 print(factorial(5))
     

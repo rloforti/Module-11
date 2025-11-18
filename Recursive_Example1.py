@@ -22,5 +22,5 @@ def reverse(s):
 
 # Example usage
 print(reverse("hello"))        # → "olleh"
-print(reverse("Python"))       # → "nohtyP"
-print(reverse([1, 2, 3, 4]))   # → [4, 3, 2, 1]  (works with lists too!)
+#print(reverse("Python"))       # → "nohtyP"
+#print(reverse([1, 2, 3, 4]))   # → [4, 3, 2, 1]  (works with lists too!)

@@ -29,8 +29,8 @@ def fib(n) :
    else :
       result1 = fib(n - 1)
       result2 = fib(n - 2)
-      print (f"result1: {result1} + result2: {result2} = {result1 + result2}")
-      return result1 + result2
+      
+      return fib(n-1) + fib(n-2)
 
 
 main()
