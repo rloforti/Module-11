@@ -30,3 +30,21 @@ elif len(sub) > len(string) :
 return -1
 def indexOf(string,sub) :
 '''
+def main():
+    phrase = input("Enter a phrase: ")
+    sub = input("Enter a substring: ")
+    result = indexOf(phrase, sub)
+    print(result)
+
+def indexOf(string, sub):
+    if string.startswith(sub):
+        return 0
+    elif len(sub) > len(string):
+        return -1
+    pos = indexOf(string[1:], sub)
+    if pos == -1:
+        return -1
+    else:
+        return pos + 1
+    
+main()
